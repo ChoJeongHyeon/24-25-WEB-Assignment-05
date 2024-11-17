@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainLayout {
+  color: gray;
+  font-size: 14px;
+  width: 400px;
+  height: 600px;
+  border: 1px solid rgb(242, 242, 242);
+  box-shadow: 5px 5px 10px 5px rgba(189, 189, 189, 0.3),
+    -5px -5px 10px 5px rgba(189, 189, 189, 0.3);
+}
+.top {
+  width: 400px;
+  height: 50px;
+  border: 1px solid rgb(242, 242, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(102, 140, 255);
+  font-size: 25px;
+}
+.todoInput {
+  width: 400px;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+}
+input {
+  width: 380px;
+  height: 25px;
+  border: none;
+  margin: 2px;
+  outline: none;
+}
+.todoListContainer {
+  width: 400px;
+  height: 470px;
+  border: none;
+  font-size: 15px;
+  position: relative;
+}
+.todoList {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.checkbox-change {
+  width: 12px;
+  height: 12px;
+  border: 0.5px solid black;
+  border-radius: 50%;
+  appearance: none;
+  margin-right: 10px;
+}
+.checkbox-change:checked {
+  background: rgba(102, 140, 255);
+}
+
+.checkBoxLabel {
+  color: rgba(102, 140, 255);
+}
+span {
+  color: rgba(102, 140, 255);
+}
+.ischeck {
+  color: rgba(102, 140, 255);
+  text-decoration: line-through;
+}
+.removeTodo {
+  border: none;
+  font-size: 12px;
+  width: 50px;
+  height: 20px;
+  background-color: white;
+  color: rgba(102, 140, 255);
+  position: absolute;
+  right: 5px;
+}
+.bottom {
+  width: 400px;
+  height: 50px;
+  border: 1px solid rgb(242, 242, 242);
+  font-size: 12px;
+}
+.item1 {
+  width: 199px;
+  height: 45px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(102, 140, 255);
+}
+.item2 {
+  width: 199px;
+  height: 45px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottomButton {
+  background-color: white;
+  color: rgba(102, 140, 255);
+}
